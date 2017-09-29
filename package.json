@@ -1,0 +1,24 @@
+
+{
+  "name": "react-native-alibaichuan",
+  "version": "1.0.0",
+  "description": "React Native的阿里百川sdk， 包含淘宝授权登录等",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react-native",
+    "alibc",
+    "sdk",
+    "alibaba",
+    "taobao",
+    "baichuan",
+    "login"
+  ],
+  "author": "毛春杰",
+  "license": "MIT",
+  "peerDependencies": {
+    "react-native": "^0.41.2"
+  }
+}

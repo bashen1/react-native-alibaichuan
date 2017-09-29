@@ -1,0 +1,322 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		663CB5331EA39D11004397A2 /* AlibcTradeWebViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 663CB5321EA39D11004397A2 /* AlibcTradeWebViewManager.m */; };
+		66646BCE1EA6480500DFED39 /* AlibcSdkBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 66646BCD1EA6480500DFED39 /* AlibcSdkBridge.m */; };
+		66646BD11EA7382B00DFED39 /* AlibcWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 66646BD01EA7382B00DFED39 /* AlibcWebView.m */; };
+		B3E7B58A1CC2AC0600A0062D /* RNAlibcSdk.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E7B5891CC2AC0600A0062D /* RNAlibcSdk.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		58B511D91A9E6C8500147676 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		134814201AA4EA6300B7C361 /* libRNAlibcSdk.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNAlibcSdk.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		663CB5321EA39D11004397A2 /* AlibcTradeWebViewManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlibcTradeWebViewManager.m; sourceTree = "<group>"; };
+		66646BCC1EA6480500DFED39 /* AlibcSdkBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlibcSdkBridge.h; sourceTree = "<group>"; };
+		66646BCD1EA6480500DFED39 /* AlibcSdkBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlibcSdkBridge.m; sourceTree = "<group>"; };
+		66646BCF1EA7382B00DFED39 /* AlibcWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlibcWebView.h; sourceTree = "<group>"; };
+		66646BD01EA7382B00DFED39 /* AlibcWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlibcWebView.m; sourceTree = "<group>"; };
+		66E8BD5B1E991BED005B1C15 /* AlibabaAuthSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlibabaAuthSDK.framework; path = AlibcTradeSDK/Frameworks/AlibabaAuthSDK.framework; sourceTree = "<group>"; };
+		66E8BD5D1E991BF8005B1C15 /* AlibcTradeSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlibcTradeSDK.framework; path = AlibcTradeSDK/Frameworks/AlibcTradeSDK.framework; sourceTree = "<group>"; };
+		66E8BD5F1E991C02005B1C15 /* AlibcTradeCommon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlibcTradeCommon.framework; path = AlibcTradeSDK/Frameworks/AlibcTradeCommon.framework; sourceTree = "<group>"; };
+		66E8BD611E991C05005B1C15 /* AlibabaAuthExt.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlibabaAuthExt.framework; path = AlibcTradeSDK/Frameworks/AlibabaAuthExt.framework; sourceTree = "<group>"; };
+		66E8BD671E991C19005B1C15 /* AlibcLinkPartnerSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlibcLinkPartnerSDK.framework; path = AlibcTradeSDK/Frameworks/AlibcLinkPartnerSDK.framework; sourceTree = "<group>"; };
+		66E8BD681E991C19005B1C15 /* AlibcTradeBiz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlibcTradeBiz.framework; path = AlibcTradeSDK/Frameworks/AlibcTradeBiz.framework; sourceTree = "<group>"; };
+		66E8BD691E991C19005B1C15 /* AlipaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlipaySDK.framework; path = AlibcTradeSDK/Frameworks/AlipaySDK.framework; sourceTree = "<group>"; };
+		66E8BD6A1E991C19005B1C15 /* OpenMtopExt.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenMtopExt.framework; path = AlibcTradeSDK/Frameworks/OpenMtopExt.framework; sourceTree = "<group>"; };
+		66E8BD6B1E991C19005B1C15 /* OpenMtopSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenMtopSDK.framework; path = AlibcTradeSDK/Frameworks/OpenMtopSDK.framework; sourceTree = "<group>"; };
+		66E8BD6C1E991C19005B1C15 /* SecurityGuardSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SecurityGuardSDK.framework; path = AlibcTradeSDK/Frameworks/SecurityGuardSDK.framework; sourceTree = "<group>"; };
+		66E8BD6D1E991C19005B1C15 /* SGMain.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SGMain.framework; path = AlibcTradeSDK/Frameworks/SGMain.framework; sourceTree = "<group>"; };
+		66E8BD6E1E991C19005B1C15 /* SGNoCaptcha.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SGNoCaptcha.framework; path = AlibcTradeSDK/Frameworks/SGNoCaptcha.framework; sourceTree = "<group>"; };
+		66E8BD6F1E991C19005B1C15 /* SGSecurityBody.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SGSecurityBody.framework; path = AlibcTradeSDK/Frameworks/SGSecurityBody.framework; sourceTree = "<group>"; };
+		66E8BD701E991C19005B1C15 /* UTDID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UTDID.framework; path = AlibcTradeSDK/Frameworks/UTDID.framework; sourceTree = "<group>"; };
+		66E8BD711E991C19005B1C15 /* UTMini.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UTMini.framework; path = AlibcTradeSDK/Frameworks/UTMini.framework; sourceTree = "<group>"; };
+		66E8BD7D1E991C25005B1C15 /* AlibabaAuthSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = AlibabaAuthSDK.bundle; path = AlibcTradeSDK/Resources/AlibabaAuthSDK.bundle; sourceTree = "<group>"; };
+		66E8BD7E1E991C25005B1C15 /* AlipaySDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = AlipaySDK.bundle; path = AlibcTradeSDK/Resources/AlipaySDK.bundle; sourceTree = "<group>"; };
+		66E8BD7F1E991C25005B1C15 /* ALPLinkPartnerSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = ALPLinkPartnerSDK.bundle; path = AlibcTradeSDK/Resources/ALPLinkPartnerSDK.bundle; sourceTree = "<group>"; };
+		66E8BD801E991C25005B1C15 /* NBResource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = NBResource.bundle; path = AlibcTradeSDK/Resources/NBResource.bundle; sourceTree = "<group>"; };
+		B3E7B5881CC2AC0600A0062D /* RNAlibcSdk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNAlibcSdk.h; sourceTree = "<group>"; };
+		B3E7B5891CC2AC0600A0062D /* RNAlibcSdk.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNAlibcSdk.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		58B511D81A9E6C8500147676 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		134814211AA4EA7D00B7C361 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				134814201AA4EA6300B7C361 /* libRNAlibcSdk.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		58B511D21A9E6C8500147676 = {
+			isa = PBXGroup;
+			children = (
+				66E8BD7D1E991C25005B1C15 /* AlibabaAuthSDK.bundle */,
+				66E8BD7E1E991C25005B1C15 /* AlipaySDK.bundle */,
+				66E8BD7F1E991C25005B1C15 /* ALPLinkPartnerSDK.bundle */,
+				66E8BD801E991C25005B1C15 /* NBResource.bundle */,
+				B3E7B5881CC2AC0600A0062D /* RNAlibcSdk.h */,
+				B3E7B5891CC2AC0600A0062D /* RNAlibcSdk.m */,
+				66646BCC1EA6480500DFED39 /* AlibcSdkBridge.h */,
+				66646BCD1EA6480500DFED39 /* AlibcSdkBridge.m */,
+				663CB5321EA39D11004397A2 /* AlibcTradeWebViewManager.m */,
+				66646BCF1EA7382B00DFED39 /* AlibcWebView.h */,
+				66646BD01EA7382B00DFED39 /* AlibcWebView.m */,
+				134814211AA4EA7D00B7C361 /* Products */,
+				66E8BD5A1E991BED005B1C15 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		66E8BD5A1E991BED005B1C15 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				66E8BD671E991C19005B1C15 /* AlibcLinkPartnerSDK.framework */,
+				66E8BD681E991C19005B1C15 /* AlibcTradeBiz.framework */,
+				66E8BD691E991C19005B1C15 /* AlipaySDK.framework */,
+				66E8BD6A1E991C19005B1C15 /* OpenMtopExt.framework */,
+				66E8BD6B1E991C19005B1C15 /* OpenMtopSDK.framework */,
+				66E8BD6C1E991C19005B1C15 /* SecurityGuardSDK.framework */,
+				66E8BD6D1E991C19005B1C15 /* SGMain.framework */,
+				66E8BD6E1E991C19005B1C15 /* SGNoCaptcha.framework */,
+				66E8BD6F1E991C19005B1C15 /* SGSecurityBody.framework */,
+				66E8BD701E991C19005B1C15 /* UTDID.framework */,
+				66E8BD711E991C19005B1C15 /* UTMini.framework */,
+				66E8BD611E991C05005B1C15 /* AlibabaAuthExt.framework */,
+				66E8BD5F1E991C02005B1C15 /* AlibcTradeCommon.framework */,
+				66E8BD5D1E991BF8005B1C15 /* AlibcTradeSDK.framework */,
+				66E8BD5B1E991BED005B1C15 /* AlibabaAuthSDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		58B511DA1A9E6C8500147676 /* RNAlibcSdk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58B511EF1A9E6C8500147676 /* Build configuration list for PBXNativeTarget "RNAlibcSdk" */;
+			buildPhases = (
+				58B511D71A9E6C8500147676 /* Sources */,
+				58B511D81A9E6C8500147676 /* Frameworks */,
+				58B511D91A9E6C8500147676 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RNAlibcSdk;
+			productName = RCTDataManager;
+			productReference = 134814201AA4EA6300B7C361 /* libRNAlibcSdk.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		58B511D31A9E6C8500147676 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Facebook;
+				TargetAttributes = {
+					58B511DA1A9E6C8500147676 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 58B511D61A9E6C8500147676 /* Build configuration list for PBXProject "RNAlibcSdk" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 58B511D21A9E6C8500147676;
+			productRefGroup = 58B511D21A9E6C8500147676;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				58B511DA1A9E6C8500147676 /* RNAlibcSdk */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		58B511D71A9E6C8500147676 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66646BCE1EA6480500DFED39 /* AlibcSdkBridge.m in Sources */,
+				66646BD11EA7382B00DFED39 /* AlibcWebView.m in Sources */,
+				663CB5331EA39D11004397A2 /* AlibcTradeWebViewManager.m in Sources */,
+				B3E7B58A1CC2AC0600A0062D /* RNAlibcSdk.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		58B511ED1A9E6C8500147676 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		58B511EE1A9E6C8500147676 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		58B511F01A9E6C8500147676 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AlibcTradeSDK/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../../../React/**",
+					"$(SRCROOT)/../../react-native/React/**",
+				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = RNAlibcSdk;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		58B511F11A9E6C8500147676 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AlibcTradeSDK/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../../../React/**",
+					"$(SRCROOT)/../../react-native/React/**",
+				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = RNAlibcSdk;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		58B511D61A9E6C8500147676 /* Build configuration list for PBXProject "RNAlibcSdk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58B511ED1A9E6C8500147676 /* Debug */,
+				58B511EE1A9E6C8500147676 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58B511EF1A9E6C8500147676 /* Build configuration list for PBXNativeTarget "RNAlibcSdk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58B511F01A9E6C8500147676 /* Debug */,
+				58B511F11A9E6C8500147676 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 58B511D31A9E6C8500147676 /* Project object */;
+}
