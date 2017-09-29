@@ -14,16 +14,6 @@
 3. 通过手淘App和H5方式打开宝贝页面、购物车页面、订单页面，添加购物车页面和Url链接， 并获取交易回调信息，实现交易闭环。
 4. 通过在react-native内嵌入WebView方式打开宝贝页面、购物车页面、订单页面，添加购物车页面和Url链接， 并获取交易回调信息，实现App内交易闭环。
 
-# 快速开始
-
-1. 进入阿里百川开发者控制台 -> 创建应用 -> 在我的产品后台开通百川电商SDK -> 在API申请开通初级电商能力和无线开放百川淘宝客
-2. git clone https://github.com/zzz945/RNAlibcSdkDemo
-3. cd RNAlibcSdkDemo; npm install
-4. 用xcode打开RNAlibcSdkDemo/ios/下的工程， 配置URL Types为tbopen{AppKey}， 比如tbopen123456。 其中AppKey可以在百川后台查到
-5. 在百川后台下载安全图片， 替换ios/yw_1222.jpg和android/app/src/main/res/drawable/yw_1222.jpg
-6. 在RNAlibcSdkDemo／app.js中替换自己的pid参数， 当开通阿里妈妈后， pid参数可在百川后台查到
-7. react-native run-ios(android)
-
 ![login](https://cloud.githubusercontent.com/assets/21496977/25235890/0975d240-2619-11e7-80c4-b18b521f8906.gif)
 ![show](https://cloud.githubusercontent.com/assets/21496977/25235905/13f00f1a-2619-11e7-83db-20c7a8d2c41a.gif)
 ![webview](https://cloud.githubusercontent.com/assets/21496977/25235918/1beae8e8-2619-11e7-8297-ab7e36b02faf.gif)
