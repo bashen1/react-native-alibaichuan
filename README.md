@@ -2,7 +2,10 @@
 # react-native-alibaichuan
 
 此项目基于[react-native-alibc-sdk](https://github.com/zzz945/react-native-alibc-sdk/)
-此项目基于阿里百川SDK 205， 封装出React Native接口， 方便在RN应用中集成阿里百川SDK的各种功能。正在积极开发和完善， 如果觉得有用请给个Star。
+
+此项目基于阿里百川SDK 205， 封装出React Native接口
+
+方便在RN应用中集成阿里百川SDK的各种功能。正在积极开发和完善， 如果觉得有用请给个Star。
 
 
 # 功能
@@ -28,10 +31,10 @@
 # DIY (适用于在现有RN工程基础上添加百川)
 
 1. 进入阿里百川开发者控制台 -> 创建应用 -> 在我的产品后台开通百川电商SDK -> 在API申请开通初级电商能力和无线开放百川淘宝客。
-2. npm i https://github.com/zzz945/react-native-alibc-sdk.git --save
-3. react-native link react-native-alibc-sdk
+2. npm i https://github.com/bashen1/react-native-alibaichuan.git --save
+3. react-native link react-native-alibaichuan
 
-## Ios （参考 http://baichuan.taobao.com/docs/doc.htm?spm=a3c0d.7629140.0.0.VWjqPl&treeId=129&articleId=105648&docType=1 以及Demo工程配置）
+## iOS （参考 http://baichuan.taobao.com/docs/doc.htm?spm=a3c0d.7629140.0.0.VWjqPl&treeId=129&articleId=105648&docType=1 以及Demo工程配置）
 
 4. 配置URL Types为tbopen{AppKey}， 比如tbopen123456。
 5. 在info.plist中,增加LSApplicationQueriesSchemes字段,并添加tbopen,tmall。
