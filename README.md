@@ -1,3 +1,4 @@
+# 目前还在开发中，请勿npm
 
 # react-native-alibaichuan
 
