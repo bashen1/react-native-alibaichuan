@@ -1,4 +1,4 @@
-# 集成最新百川SDK 206，支持高佣申请，相关使用封装
+# 集成最新百川SDK 206，支持高佣申请
 
 # 使用的相关事例在：[DemoAlibaichuan.js](https://github.com/bashen1/react-native-alibaichuan/blob/master/DemoAlibaichuan.js)
 
@@ -99,3 +99,6 @@ Copy Bundle Resources）。
 # API文档（TODO）
 
 	参考Demo。
+
+# 请我吃辣条
+![请我吃辣条](http://www.maochunjie.com/wp-content/uploads/2018/01/qrcode.png)
