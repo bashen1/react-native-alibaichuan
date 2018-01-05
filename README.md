@@ -1,15 +1,16 @@
-# 目前还在开发中，请勿npm
+# 集成最新百川SDK 206，支持高佣申请，相关使用封装
+
+# 使用的相关事例在：[DemoAlibaichuan.js](https://github.com/bashen1/react-native-alibaichuan/blob/master/DemoAlibaichuan.js)
 
 # react-native-alibaichuan
 
 此项目基于[react-native-alibc-sdk](https://github.com/zzz945/react-native-alibc-sdk/)
 
-此项目基于阿里百川SDK 205， 封装出React Native接口
-
 方便在RN应用中集成阿里百川SDK的各种功能。正在积极开发和完善， 如果觉得有用请给个Star。
 
 
 # 功能
+
 1. 淘宝登录授权
 2. 淘客参数设置
 3. 通过手淘App和H5方式打开宝贝页面、购物车页面、订单页面，添加购物车页面和Url链接， 并获取交易回调信息，实现交易闭环。

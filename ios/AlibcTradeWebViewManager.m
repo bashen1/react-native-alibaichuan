@@ -1,9 +1,7 @@
-
 #import <React/RCTViewManager.h>
 #import <React/RCTUIManager.h>
 #import <UIKit/UIKit.h>
 #import "AlibcWebView.h"
-
 #import <React/RCTLog.h>
 
 @interface AlibcTradeWebViewManager : RCTViewManager<UIWebViewDelegate>

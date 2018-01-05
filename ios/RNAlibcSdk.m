@@ -17,23 +17,23 @@
 }
 RCT_EXPORT_MODULE()
 
-RCT_EXPORT_METHOD(init: (NSString *)pid forceH5:(BOOL)forceH5 callback:(RCTResponseSenderBlock)callback)
+RCT_EXPORT_METHOD(initTae: (RCTResponseSenderBlock)callback)
 {
-    [[AlibcSdkBridge sharedInstance] init:pid forceH5:forceH5 callback:callback];
+    [[AlibcSdkBridge sharedInstance] initTae:callback];
 }
 
-RCT_EXPORT_METHOD(login: (RCTResponseSenderBlock)callback)
+RCT_EXPORT_METHOD(showLogin: (RCTResponseSenderBlock)callback)
 {
-    [[AlibcSdkBridge sharedInstance] login:callback];
+    [[AlibcSdkBridge sharedInstance] showLogin:callback];
 }
 RCT_EXPORT_METHOD(isLogin: (RCTResponseSenderBlock)callback)
 {
     [[AlibcSdkBridge sharedInstance] isLogin:callback];
 }
 
-RCT_EXPORT_METHOD(getUser: (RCTResponseSenderBlock)callback)
+RCT_EXPORT_METHOD(getUserInfo: (RCTResponseSenderBlock)callback)
 {
-    [[AlibcSdkBridge sharedInstance] getUser:callback];
+    [[AlibcSdkBridge sharedInstance] getUserInfo:callback];
 }
 
 RCT_EXPORT_METHOD(logout: (RCTResponseSenderBlock)callback)

@@ -2,7 +2,7 @@
 //  AlibcWebView.h
 //  RNAlibcSdk
 //
-//  Created by et on 17/4/19.
+//  Created by IORI on 17/4/19.
 //  Copyright © 2017年 Facebook. All rights reserved.
 //
 
