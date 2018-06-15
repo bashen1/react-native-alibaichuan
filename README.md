@@ -23,7 +23,7 @@
 # DIY (适用于在现有RN工程基础上添加百川)
 
 1. 进入阿里百川开发者控制台 -> 创建应用 -> 在我的产品后台开通百川电商SDK -> 在API申请开通初级电商能力和无线开放百川淘宝客。
-2. npm i https://github.com/bashen1/react-native-alibaichuan.git --save
+2. npm i react-native-alibaichuan --save
 3. react-native link react-native-alibaichuan
 
 ## iOS （参考 http://baichuan.taobao.com/docs/doc.htm?spm=a3c0d.7629140.0.0.VWjqPl&treeId=129&articleId=105648&docType=1 以及Demo工程配置）
